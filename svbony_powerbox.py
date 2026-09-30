@@ -1,7 +1,7 @@
 import serial
 import struct
 import time
-import sys
+import sys, os
 
 class SVBonyPowerBox:
     HEADER = 0x24
